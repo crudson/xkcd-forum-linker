@@ -16,7 +16,6 @@ Either on page load or button click:
 
 ## What You Do (if not obtaining via add-on repository):
 - Download `http://raw.github.com/crudson/xkcd-forum-linker/master/xkcd.xpi`
-- Go to `about:addons`
-- Select `extensions`
+- Select menu item `Tools...Add-ons` or go to `about:addons` and select `extensions`
 - Click the Tools icon and select `Install Add-On From File...`
 - Navigate to where you saved `xkcd.xpi`
