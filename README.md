@@ -11,11 +11,10 @@ Firefox extension that automatically adds a link for (or redirects to) the (ofte
 Either on page load or button click:
 - Determine which comic is being viewed
 - Perform forum search for comic via Ajax request
-- Create DOM node for the response page
-- Find topic link in DOM
-- Add a link to original page or redirect to the forum page
+- Parse search page DOM and find topic link
+- Add forum link to page or redirect to the forum page
 
-## What You Do:
+## What You Do (if not obtaining via add-on repository):
 - Download `http://raw.github.com/crudson/xkcd-forum-linker/master/xkcd.xpi`
 - Go to `about:addons`
 - Select `extensions`
