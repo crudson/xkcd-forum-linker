@@ -6,9 +6,9 @@ self.port.on('getComicId', function() {
 });
 
 self.port.on('findTopic', function(text) {
-  var el = document.createElement('html');
-  el.innerHTML = text;
-  var posts = el.querySelectorAll('.post');
+  var parser = new DOMParser();
+  var doc = parser.parseFromString(text, "text/html");
+  var posts = doc.querySelectorAll('.post');
   for (var i = 0; i < posts.length; i++) {
     var postEl = posts[i];
     if (postEl.querySelector('h3 a span.posthilit')) {
@@ -19,9 +19,14 @@ self.port.on('findTopic', function(text) {
       }
     }
   }
+  console.log('no match');
 });
 
 self.port.on('addLink', function(href) {
   var midEl = document.getElementById('middleContainer');
-  midEl.innerHTML = midEl.innerHTML + '<br/><a href="' + href + '">Forum link</a>';
+  var aEl = document.createElement('a');
+  aEl.href = href;
+  aEl.textContent = 'Forum Link';
+  midEl.appendChild(document.createElement('br'));
+  midEl.appendChild(aEl);
 });
