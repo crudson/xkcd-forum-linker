@@ -10,9 +10,9 @@
     {
       "name": "addLinkOnLoad",
       "title": "Add Link On Page Load",
-      "description": "Add a hyperlink to the forum page for the current comic on page load",
+      "description": "Automatically add a hyperlink to the forum page for the current comic on page load. Otherwise you gotta click the button.",
       "type": "bool",
-      "value": true
+      "value": false
     },
     {
       "name": "debug",
