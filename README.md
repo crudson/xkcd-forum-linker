@@ -15,7 +15,7 @@ Either on page load or button click:
 - Add forum link to page or redirect to the forum page
 
 ## What You Do (if not obtaining via add-on repository):
-- Download `http://raw.github.com/crudson/xkcd-forum-linker/master/xkcd.xpi`
+- Download `http://raw.github.com/crudson/xkcd-forum-linker/master/xkcd-forum-linker.xpi`
 - Select menu item `Tools...Add-ons` or go to `about:addons` and select `extensions`
 - Click the Tools icon and select `Install Add-On From File...`
-- Navigate to where you saved `xkcd.xpi`
+- Navigate to where you saved `xkcd-forum-linker.xpi`
