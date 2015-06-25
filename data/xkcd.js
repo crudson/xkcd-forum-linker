@@ -1,5 +1,3 @@
-console.log('xkcdForum.js');
-
 self.port.on('getComicId', function() {
   var match = window.location.pathname.match(/^\/(\d+)\/?$/);
   if (match) {
@@ -24,7 +22,6 @@ self.port.on('findTopic', function(text) {
 });
 
 self.port.on('addLink', function(href) {
-  console.log('adding href' + href);
   var midEl = document.getElementById('middleContainer');
   midEl.innerHTML = midEl.innerHTML + '<br/><a href="' + href + '">Forum link</a>';
 });

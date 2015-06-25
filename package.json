@@ -2,8 +2,24 @@
   "name": "xkcd",
   "title": "xkcd",
   "id": "jid1-xyIFVEjx4b2pFA",
-  "description": "xkcd forum links",
+  "description": "Provide ways to get to the discussion forum page for individual xkcd comics. Can either add a link to the page on load or redirect to the forum page when a button is clicked.",
   "author": "djh",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "0.2",
+  "preferences": [
+    {
+      "name": "addLinkOnLoad",
+      "title": "Add Link On Page Load",
+      "description": "Add a hyperlink to the forum page for the current comic on page load",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "debug",
+      "title": "Log Debug Messages",
+      "description": "Log messages to the console to help debug what is happening",
+      "type": "bool",
+      "value": false
+    }
+  ]
 }
