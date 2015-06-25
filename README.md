@@ -6,7 +6,7 @@ Firefox extension that automatically adds a link for (or redirects to) the (ofte
 
 ## How:
 Either on page load or button click:
-- Determine which comic is being vewied
+- Determine which comic is being viewed
 - Perform forum search for comic via Ajax request
 - Create DOM node for the response page
 - Find topic link in DOM
