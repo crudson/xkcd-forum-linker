@@ -1,6 +1,6 @@
 {
-  "name": "xkcd",
-  "title": "xkcd",
+  "name": "xkcd-forum-linker",
+  "title": "XKCD Forum Linker",
   "id": "jid1-xyIFVEjx4b2pFA",
   "description": "Provide ways to get to the discussion forum page for individual xkcd comics. Can either add a link to the page on load or redirect to the forum page when a button is clicked.",
   "author": "djh",
